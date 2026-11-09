@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-pacifico {
+    font-family: 'Pacifico', cursive;
+  }
+  .font-outfit {
+    font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+  .font-code {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+:root {
+  --app-bg: #2f2f2f;
+  --app-primary: #4CAF50;
+  --app-secondary: #00ffff;
+}
+
+body {
+  background-color: #2f2f2f;
+  font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #f3f4f6;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+
+/* Hide spin buttons */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* Custom sleek scrollbars */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.15);
+}
+::-webkit-scrollbar-thumb {
+  background: #4CAF50;
+  border-radius: 9999px;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Star Betting",
+  "description": "Star Betting - Mobile number betting app with live 5-minute rounds, wallet transfers, referral rewards, and administrative tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
